@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/taskNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task Name"
+        android:textSize="18sp"
+        android:layout_marginTop="100dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/taskDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task Description"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:inputType="text"/>
+    <TextView
+        android:id="@+id/dueDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No due date selected"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/pickDueDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Due Date 📅"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/addTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
